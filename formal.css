@@ -1,0 +1,35 @@
+body {
+	font-family: "Arial";
+}
+
+h1 {
+	color: #000000;
+	font-size: 30pt;
+}
+
+#main_table{
+	border-collapse: collapse;
+	position: relative;
+	top: 30px;
+}
+
+td {
+	padding:0.25em;
+}
+
+#cv_type{
+	font-weight: bold;
+	font-size: 18pt;
+	text-align: left;
+}
+
+.info_bold {
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: left;
+}
+
+.info_right {
+	text-align: left;
+	width: 30%;
+}

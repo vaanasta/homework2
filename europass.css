@@ -1,0 +1,63 @@
+body {
+	font-family: "Arial";
+}
+
+h1 {
+	color: #000000;
+	font-size: 30pt;
+}
+
+#main_table{
+	border-collapse: collapse;
+	position: relative;
+	top: 30px;
+}
+
+td {
+	padding:0.25em;
+}
+
+#cv_type:before{
+	content: "Europass ";
+	font-weight: bold;
+	font-size: 18pt;
+	
+}
+
+#cv_type{
+	font-weight: bold;
+	font-size: 18pt;
+	text-align: right;
+	background-image: url("europass.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+	border-right: 1px solid black;
+}
+
+#photo {
+	height: 200px;
+	background-image: url("photo.png");
+	background-repeat: no-repeat;
+	background-size:  150px 200px;
+	background-position: 20px;
+}
+
+.info_bold {
+	font-weight: bold;
+	text-align: right;
+	border-right: 1px solid black;
+}
+
+.info_right {
+	text-align: right;
+	border-right: 1px solid black;
+}
+
+#main_table:after{
+	position: relative;
+	left: 50%;
+	top: 10px;
+	content: "For more information on Europass go to http://europass.cedefop.europa.eu © European Union, 2004-2010   24082010";
+	font-size: 10pt;
+	color: #BBBBBB;
+}

@@ -1,0 +1,70 @@
+body {
+	font-family: "Arial";
+}
+
+h1 {
+	
+	color: #000000;
+	font-size: 30pt;
+}
+
+#main_table{
+	font-family: "Georgia";
+	border-collapse: collapse;
+	border-bottom-style: solid;
+	border-bottom-width: 50px;
+	border-bottom-color: #00AEEF;
+	position: relative;
+	top: 30px;
+}
+
+td {
+	padding:0.25em;
+}
+
+#photo:before{
+	content: "Anastasopoulos";
+	font-weight: bold;
+	font-size: 40pt;
+	color: #FFFFFF;
+}
+
+#photo:after{
+	position: relative;
+	top: 50px;
+	left: -80px;
+	content: "CV";
+	font-weight: bold;
+	font-size: 40pt;
+	color: #FFFFFF;
+}
+
+#photo {
+	background-color: #00AEEF;
+	font-weight: bold;
+	text-align: right;
+}
+
+#cv_type{
+	background-color: #00AEEF;
+	font-weight: bold;
+	font-size: 30pt;
+	color: #00AEEF;
+}
+
+
+#personal_info{
+	background-color: #00AEEF;
+}
+
+.info_bold {
+	font-weight: bold;
+	font-size: 16pt;
+	text-align: left;
+	color: #00AEEF;
+}
+
+.info_right {
+	text-align: left;
+	width: 30%;
+}
